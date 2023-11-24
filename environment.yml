@@ -1,0 +1,24 @@
+name: strokellm
+channels:
+  - anaconda
+  - defaults
+  - conda-forge
+dependencies:
+  - python==3.9
+  - pandas
+  - pip
+  - pip :
+    - openai==0.27.8
+    - langchain==0.0.234
+    - python-dotenv==1.0.0
+    - streamlit==1.24.1
+    - llama-cpp-python==0.1.65
+
+          #- torch==1.13.1
+          #- transformers==4.29.0
+     
+          #- pandas
+          #- numpy
+          #- matplotlib
+          #- rdkit
+          #- accelerate
